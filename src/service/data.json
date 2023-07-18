@@ -1,0 +1,284 @@
+{
+  "childId": "antiCorruptionCommission",
+  "children": [
+    {
+      "relation": "dot",
+      "childId": "commissioner$1"
+    },
+    {
+      "relation": "bold",
+      "childId": "chairman",
+      "children": [
+        {
+          "relation": "solid",
+          "childId": "secretary",
+          "children": [
+            {
+              "relation": "solid",
+              "childId": "assetManager"
+            },
+            {
+              "relation": "solid",
+              "subId": "one",
+              "subs": [
+                { "childId": "directorPublicRelation" },
+                { "childId": "medicalOfficer" },
+                { "childId": "reserve" }
+              ]
+            },
+            {
+              "relation": "solid",
+              "subId": "two",
+              "subs": [
+                {
+                  "childId": "directorGeneralAdministrationOrganizationFinance",
+                  "children": [
+                    {
+                      "relation": "solid",
+                      "subId": "three",
+                      "subs": [
+                        {
+                          "childId": "directorAdministrationOrganizationHumanResources",
+                          "children": [
+                            {
+                              "relation": "solid",
+                              "subId": "eleven",
+                              "subs": [
+                                { "childId": "deputyDirectorAdministrationLogisticsAdministration" },
+                                { "childId": "deputyDirectorOrganisationHumanResources" },
+                                { "childId": "deputyDirectorInspection" }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "childId": "directorFinanceAccounts",
+                          "children": [
+                            {
+                              "relation": "solid",
+                              "subId": "twelve",
+                              "subs": [
+                                { "childId": "deputyDirectorFinanceAccountsFinanceAccountsAudit" },
+                                { "childId": "deputyDirectorAdministration" }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "relation": "solid",
+                      "childId": "enforcementUnit"
+                    }
+                  ]
+                },
+                {
+                  "childId": "directorGeneralTrainingInformationTechnology",
+                  "children": [
+                    {
+                      "relation": "solid",
+                      "subId": "four",
+                      "subs": [
+                        {
+                          "childId": "directorAdministrationResearch",
+                          "children": [
+                            {
+                              "relation": "solid",
+                              "childId": "deputyDirectorTrainingRecords"
+                            }
+                          ]
+                        },
+                        {
+                          "childId": "systemAnalystInformationTechnologyShell",
+                          "children": [
+                            {
+                              "relation": "solid",
+                              "subId": "thirteen",
+                              "subs": [
+                                { "childId": "softwareCell" },
+                                { "childId": "maintenanceNetworkCell" },
+                                { "childId": "helpdesk" }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "childId": "directorGeneralEnquiriesInvestigationsEnquiriesInvestigations$1",
+                  "children": [
+                    {
+                      "relation": "solid",
+                      "subId": "five",
+                      "subs": [
+                        { "childId": "directorInquiryInvestigationInquiryInvestigation1DhakaDivision" },
+                        { "childId": "directorInquiryInvestigationInquiryInvestigationIIMymensinghDivision" },
+                        { "childId": "directorInquiryInvestigationInquiryInvestigation3RajshahiDivision" },
+                        { "childId": "directorInquiryInvestigationInquiryInvestigation4RangpurDivision" },
+                        { "childId": "directorDailyRecentComplaintsShell" }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "childId": "directorGeneralEnquiriesInvestigationsEnquiriesInvestigations$2",
+                  "children": [
+                    {
+                      "relation": "solid",
+                      "subId": "six",
+                      "subs": [
+                        { "childId": "directorInquiryInvestigationInquiryInvestigation5ChittagongDivision" },
+                        { "childId": "directorInquiryInvestigationInquiryInvestigation6SylhetDivision" },
+                        { "childId": "directorInquiryInvestigationInquiryInvestigation7KhulnaDivision" },
+                        { "childId": "directorInquiryInvestigationInquiryInvestigation8BarisalDivision"}
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "childId": "directorGeneralSpecialInvestigationsInvestigationsSpecialInvestigations",
+                  "children": [
+                    {
+                      "relation": "solid",
+                      "subId": "seven",
+                      "subs": [
+                        { "childId": "directorSpecialInvestigationsInvestigations1" },
+                        { "childId": "directorSpecialInvestigationsInvestigations2" },
+                        { "childId": "directorSpecialInvestigationsInvestigations3"}
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "childId": "directorGeneralPendingMattersInspectionMoneyLaundering",
+                  "children": [
+                    {
+                      "relation": "solid",
+                      "subId": "eight",
+                      "subs": [
+                        { "childId": "directorNonBInspectionMoneyLaundering" },
+                        { "childId": "directorBank" },
+                        { "childId": "directorInsuranceOtherFinancialInstitutions" }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "childId": "directorGeneralLegalProsecutionLegal",
+                  "children": [
+                    {
+                      "relation": "solid",
+                      "subId": "nine",
+                      "subs": [
+                        {
+                          "childId": "directorLegal",
+                          "children": [
+                            {
+                              "relation": "solid",
+                              "subId": "forteen",
+                              "subs": [
+                                { "childId": "deputyDirectorSupremeCourt" },
+                                { "childId": "deputyDirectorSpecialJudgesCourt" }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "childId": "directorProsecution",
+                          "children": [
+                            {
+                              "relation": "solid",
+                              "subId": "fifteen",
+                              "subs": [
+                                { "childId": "deputyDirectorProsecutionProsecutionGeneral" },
+                                { "childId": "deputyDirectorLegalProsecutionDhaka" }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "childId": "directorGeneralPreventionPublicAwarenessResearchTestingPrevention",
+                  "children": [
+                    {
+                      "relation": "solid",
+                      "subId": "ten",
+                      "subs": [
+                        {
+                          "childId": "directorPreventionPublicAwarenessPreventionPublicAwareness1DhakaMymensinghRajshahiRangpur",
+                          "children": [
+                            {
+                              "relation": "solid",
+                              "subId": "sixteen",
+                              "subs": [
+                                { "childId": "deputyDirectorPreventionPublicAwarenessPrevention" },
+                                { "childId": "deputyDirectorPublicAwarenessPublicHearing$1" }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "childId": "directorPreventionPublicAwareness2ChittagongSylhetKhulnaBarisal",
+                          "children": [
+                            {
+                              "relation": "solid",
+                              "subId": "seventeen",
+                              "subs": [
+                                { "childId": "deputyDirectorPrevention" },
+                                { "childId": "deputyDirectorPublicAwarenessPublicHearing$2" }
+                              ]
+                            }
+                          ]
+                        },
+                        { "childId": "directorNISUNCACFocalPoint" },
+                        {
+                          "childId": "directorSystemsDevelopmentCoordination",
+                          "children": [
+                            {
+                              "relation": "solid",
+                              "subId": "eighteen",
+                              "subs": [
+                                { "childId": "deputyDirectorSystemsReformsDevelopment" },
+                                { "childId": "deputyDirectorOutreachProgrammeCommitteeIntegrityAssociation" }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "childId": "directorResearchTestingResearchTesting",
+                          "children": [
+                            {
+                              "relation": "solid",
+                              "subId": "nineteen",
+                              "subs": [
+                                { "childId": "deputyDirectorResearchResearchWingPublicationsLibraries" },
+                                { "childId": "deputyDirectorExaminationBranchResearchSurvey" }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "relation": "solid",
+          "subId": "two"
+        }
+      ]
+    },
+    {
+      "relation": "dot",
+      "childId": "commissioner$2"
+    }
+  ]
+}

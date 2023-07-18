@@ -1,24 +1,33 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from "react";
+
+import { ChildNodeProps } from "./const/types";
+
+import Diagram from "./components/Diagram";
+
+import { getData } from "./service/data.service";
+import { getChartData } from "./service/chartData.controller";
 
 function App() {
+  const [data, setData] = useState<ChildNodeProps | null>(null);
+  const [chartData, setChartData] = useState<String>(``);
+
+  const [lang, setLang] = useState("BN");
+
+  const fetchData = () => {
+    setData(getData());
+  };
+
+  useEffect(() => {
+    if (data) setChartData(getChartData(data));
+  }, [data]);
+
+  useEffect(() => {
+    fetchData();
+  }, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {chartData ? <Diagram chart={chartData} /> : <></>}
     </div>
   );
 }
